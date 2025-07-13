@@ -13,25 +13,27 @@ public class Codigo4 {
     //Scanner s2 = new Scanner(); Escaner de más, no es necesario
     String j2 = s.nextLine();
 
-    if (j1 == j2) { //La condicional tenia un parentesis de más
+   if (j1.equals(j2)) { //La condicional tenia un parentesis de más, se cambio el valor de la condicional por equals para que se comparen ambos string
         System.out.println("Empate");
     } else {
         int g = 2;
         switch(j1) {
             case "piedra":
-                if (j2 == "tijeras") {
+                if (j2.equals("tijeras")) { //La comparación es con equals
                     g = 1;
-                    System.out.println("Gano jugador 1");
+                    System.out.println("Gano jugador 1"); //Agregue gano jugador 1
                 }
 
             case "papel":
-                if (j2 == "piedra") {
+                if (j2.equals("piedra")) { //La comparación es con equals
                     g = 1;
+                    System.out.println("Gano jugador 1"); //Agregue gano jugador 1
                 } //el condicional no tenia bien cerrada la llave
 
             case "tijera":
-                        if (j2.equals("papel")) {
+                        if (j2.equals("papel")) { //La comparación es con equals
                             g = 2;
+                            System.out.println("Gano jugador 1"); //Agregue gano jugador 1
                         }
                         break;
                     default:
