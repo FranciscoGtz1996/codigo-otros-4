@@ -1,6 +1,16 @@
-import java.util.Scanner;
+import java.util.Scanner; //Importación java.yutil.Scanner
 
 public class Codigo4 {
+    /*
+    * El programa hace lo siguiente:
+    * Nos permite recrear el juego de piedras, papel o tijeras
+      Datos de entrada:
+       String de jugador 1: debe ser piedra, papel o tijeras.
+       String de jugador 2: debe ser piedra, papel o tijeras.
+      Datos de salida:
+       Mensaje por consola mostrando qué jugador ganó.
+    *
+    * */
     public static void main(String[] args) { //Agregamos metodo Main
 
     //Scanner s = new Scanner(); //No estaba importada la java.util.Scanner, ni el sistem in
